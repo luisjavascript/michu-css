@@ -198,18 +198,18 @@ body .mi{
     }
   }
 /*************************************
-* SHAKES
+* SHAPES
 *************************************/
-.mi.shake-left-round {
+.mi.shape-left-round {
     border-radius: 16px 0px 0px 16px !important;
 }
-.mi.shake-right-round {
+.mi.shape-right-round {
     border-radius: 0 16px 16px 0 !important;
 }
-.mi.shake-top-round {
+.mi.shape-top-round {
     border-radius: 16px 16px 0px 0px !important;
 }
-.mi.shake-bottom-round {
+.mi.shape-bottom-round {
     border-radius: 0px 0px 16px 16px !important;
 }
 /*************************************
