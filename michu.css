@@ -1428,6 +1428,34 @@ label[flip-toggle] {
 .mi.h6 {
     font-size: 10px;
 }
+.mi.tiny-text {
+    font-size: 10px !important
+}
+
+.mi.small-text {
+    font-size: 12px !important
+}
+
+.mi.medium-text {
+    font-size: 15px !important
+}
+
+.mi.large-text {
+    font-size: 18px !important
+}
+
+.mi.xlarge-text {
+    font-size: 24px !important
+}
+
+.mi.xxlarge-text {
+    font-size: 36px !important
+}
+
+.mi.jumbo-text {
+    font-size: 48px !important
+}
+
 .mi.color-red {
     color: var(--color-red);
 }
@@ -1770,4 +1798,48 @@ label[flip-toggle] {
 .mi.w-1 {
   box-sizing: border-box;
   width: 99.67%;
+}
+
+/***********************************
+* TABLAS
+***********************************/
+.mi.table,
+.mi.table th,
+.mi.table td {
+    border: none;
+    display: table-cell;
+}
+.mi.table {
+    border: 1px solid transparent;
+    border-collapse: collapse;
+}
+.mi.table.bordered-table {
+    border: 1px solid #eee;
+}
+.mi.table tr {
+    border-bottom: 1px solid transparent;
+    transition: all 0.2s ease;
+}
+.mi.table.bordered-row  tr {
+    border-bottom: 1px solid #eee;
+}
+.mi.table td,
+.mi.table th {
+    padding: 7px 10px;
+}
+.mi.table th {
+    text-align: left;
+    background: #7f8c8d;
+    padding: 7px 10px;
+    color: white;
+}
+.mi.table.even-color tr:nth-child(even) {
+    background: #F1F1F1;
+}
+.mi.table.odd-color tr:nth-child(odd) {
+    background: #F1F1F1;
+}
+.mi.table tr:hover {
+    background: #bdc3c7 !important;
+    transition: all 0.2s ease;
 }
